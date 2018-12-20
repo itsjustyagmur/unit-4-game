@@ -1,0 +1,63 @@
+body{
+    background-image: url(../images/dirt.jpeg);
+    color: whitesmoke;
+
+    
+}
+
+  
+.fluid {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    
+}
+.fluid h1 {
+    color:white;
+    font-family: 'Anton', sans-serif;
+    
+  }
+
+#new {
+      font-family:'Amatic SC', cursive;
+      color: white;
+  }
+  
+.instructions {
+    text-align: center; 
+    color: white;
+    font-size: 20px;
+  }
+.instructions h2 {
+
+        font-family: 'Abel', sans-serif;
+        font-size: 45;
+        
+}
+.typewriter h1 {
+    font-family:'Major Mono Display', monospace;
+    overflow: hidden; 
+    border-right: .15em solid white;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    font-size: 60px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+  Resources
